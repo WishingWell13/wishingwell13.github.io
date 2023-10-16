@@ -32,7 +32,11 @@ export const Blog = <Icon icon="ph:link-bold" />;
 */
 export const moreInfo =
   `
+<<<<<<< HEAD
   I have previous experience in game and web development and am looking to expand to natural language processing next. \n 
+=======
+  I have previous experience in game and web development and am looking to expand to natural language processing next. \ 
+>>>>>>> parent of 39540a1 (Updates)
   I'm excited to add to my technical and collaborative experience by learning industry best practices in a faced paced environment and using my adaptation skills to thrive!
   `;
 
@@ -95,7 +99,11 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
+<<<<<<< HEAD
 export const filteredProjects = ["Blackjack", "COGS108_Repo", "UltimateGoalTemporary"];
+=======
+export const filteredProjects = ["example-1", "example-2", "example-3"];
+>>>>>>> parent of 39540a1 (Updates)
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
