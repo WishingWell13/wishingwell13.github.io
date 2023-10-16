@@ -27,11 +27,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-<<<<<<< HEAD
-    "deploy": "gh-pages -b master -d build",
-=======
     "deploy": "gh-pages -b main -d build",
->>>>>>> parent of 39540a1 (Updates)
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
