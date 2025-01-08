@@ -1,0 +1,16 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1rem;
+    width: 100%
+}
+.video-grid iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.content {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
