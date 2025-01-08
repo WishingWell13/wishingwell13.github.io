@@ -1,0 +1,30 @@
+{
+  "name": "wishingwell13.github.io",
+  "version": "1.0.0",
+  "description": "My personal website's ExpressJS server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WishingWell13/wishingwell13.github.io.git"
+  },
+  "author": "Andrew Smithwick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WishingWell13/wishingwell13.github.io/issues"
+  },
+  "homepage": "https://github.com/WishingWell13/wishingwell13.github.io#readme",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
