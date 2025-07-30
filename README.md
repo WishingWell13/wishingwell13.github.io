@@ -2,6 +2,15 @@
 
 ## Andy Smithwick – Personal Portfolio Website
 
+This is the source code for Andy Smithwick's professional portfolio website. It features a clean, modern, and fully responsive single-page layout showcasing:
+
+- **Home (Hero Section):** Name, tagline, headshot, and quick links to GitHub and LinkedIn.
+- **About Me:** Short biography and professional background.
+- **Featured Projects:** Responsive grid of project cards with descriptions, tech stack, and GitHub links.
+- **Open Source & Community Contributions:** Featured grid highlighting top contributions plus an interactive carousel for additional projects.
+- **Research & Publications:** Academic citation and link to published work.
+- **Contact:** Prominent, clickable links for email, GitHub, and LinkedIn.
+
 This is the source code for Andy Smithwick’s professional portfolio website. It features a clean, modern, and fully responsive single-page layout showcasing:
 
 - **Home (Hero Section):** Name, tagline, headshot, and quick links to GitHub and LinkedIn.
@@ -19,6 +28,7 @@ Open `index.html` in your browser to view the site locally. All styling is in `s
 - HTML5, CSS3 (Flexbox/Grid)
 - Google Fonts (Roboto)
 - Font Awesome (CDN)
+- Swiper.js (Interactive carousel for contributions)
 
 ### Status
 
