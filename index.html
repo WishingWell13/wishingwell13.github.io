@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andy Smithwick | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Swiper.js CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <span class="nav-logo">Andy Smithwick</span>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <img src="images/Andy Smithwick Headshot Jun 25 2025.jpg" alt="Andy Smithwick Headshot" class="hero-headshot">
+      <h1>Andy Smithwick</h1>
+      <p class="tagline">Software Engineer &amp; Researcher</p>
+      <div class="hero-buttons">
+        <a href="https://github.com/WishingWell13" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/andy-smithwick/" target="_blank" class="btn btn-secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>I'm a software engineer and researcher with a passion for mechatronics, autonomous systems, and data-driven solutions. My experience spans robotics, web development, and natural language processing, with a focus on building impactful, scalable technology.</p>
+        <p>I thrive in interdisciplinary teams, combining technical expertise with a collaborative mindset. My work includes developing real-time autonomous vehicles, visualizing scientific data in VR, and teaching computer science at UC San Diego.</p>
+        <p>I'm always eager to tackle new challenges, learn emerging technologies, and contribute to projects that make a difference in the world.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <h3>PrivacySyllabus-PrivacyCourseExtraction</h3>
+          <p>Extracts privacy-related courses from university catalogs using Python scripts and NLP techniques.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Pandas</span><span>NLP</span>
+          </div>
+          <a href="https://github.com/WishingWell13/PrivacySyllabus-PrivacyCourseExtraction" target="_blank" class="project-link">GitHub Repo</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+          <h3>Scallywag-Scam-Scanner</h3>
+          <p>Detects email scams from image uploads using Google Gemini API and JavaScript.</p>
+          <div class="project-tags">
+            <span>JavaScript</span><span>Google Gemini API</span><span>Web Scraping</span>
+          </div>
+          <a href="https://github.com/WishingWell13/Scallywag-Scam-Scanner" target="_blank" class="project-link">GitHub Repo</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+          <h3>BirthdayCard</h3>
+          <p>Collaborative scheduling app for birthday cards, inspired by When2Meet. Built with TypeScript.</p>
+          <div class="project-tags">
+            <span>TypeScript</span><span>React</span><span>Web App</span>
+          </div>
+          <a href="https://github.com/WishingWell13/BirthdayCard" target="_blank" class="project-link">GitHub Repo</a>
+        </div>
+      </div>
+
+  <!-- Open Source & Community Contributions Section -->
+  <section id="contributions" class="contributions">
+    <div class="container">
+      <h2>Open Source &amp; Community Contributions</h2>
+      <!-- Featured Contributions Grid -->
+      <div class="projects-grid featured-row">
+        <div class="project-card">
+          <h3><a href="https://github.com/acmucsd/hackathon-portal/pull/114" target="_blank">Hackathon Resources Page Implementation</a></h3>
+          <p>Added a comprehensive resources page to support hackathon participants with curated links and documentation.</p>
+        </div>
+        <div class="project-card">
+          <h3><a href="https://acmucsd.com/communities" target="_blank">ACM UCSD Communities Page</a></h3>
+          <p>Contributed to the ACM UCSD Communities page, connecting students to technical, professional, and social groups across campus.</p>
+        </div>
+        <div class="project-card">
+          <h3><a href="https://github.com/acmucsd/membership-portal-ui-v2" target="_blank">Membership Portal UI v2</a></h3>
+          <p>Contributed to the Next.js rewrite of ACM UCSD's membership portal, improving user experience and accessibility for members.</p>
+        </div>
+      </div>
+
+      <!-- More Contributions Carousel -->
+      <h3 class="contrib-subheading">More Contributions</h3>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-card">
+              <h3><a href="https://github.com/acmucsd/hackathon-portal/pull/104" target="_blank">Login Error Handling Enhancement</a></h3>
+              <p>Resolved a bug to ensure invalid password errors are properly displayed after cookie clearance.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-card">
+              <h3><a href="https://github.com/acmucsd/hackathon-portal/pull/100" target="_blank">Forgot Password Feature Development</a></h3>
+              <p>Implemented the initial version of the password recovery workflow for user accounts.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-card">
+              <h3><a href="https://github.com/acmucsd/hackathon-portal/pull/78" target="_blank">Login Cookie Management Improvement</a></h3>
+              <p>Enhanced login reliability by removing stale cookies from the authentication flow.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-card">
+              <h3><a href="https://github.com/acmucsd/hackathon-portal/pull/27" target="_blank">Hackathon Portal Login UI Development</a></h3>
+              <p>Developed the frontend login interface for the hackathon portal, improving user experience and accessibility.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-card">
+              <h3><a href="https://github.com/acmucsd/main-website" target="_blank">ACM UCSD Main Website</a></h3>
+              <p>Supported development and content for the official ACM UCSD website, a central hub for 2,000+ members and 200+ annual events.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-card">
+              <h3><a href="https://github.com/acmucsd/acm-ai-site" target="_blank">ACM AI Site</a></h3>
+              <p>Helped build the official website for ACM AI at UCSD, supporting outreach and resources for the campus AI community.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper Navigation & Pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+          <h3><a href="https://github.com/acmucsd/hackathon-portal/pull/78" target="_blank">Login Cookie Management Improvement</a></h3>
+          <p>Enhanced login reliability by removing stale cookies from the authentication flow.</p>
+        </div>
+        <div class="project-card">
+          <h3><a href="https://github.com/acmucsd/hackathon-portal/pull/27" target="_blank">Hackathon Portal Login UI Development</a></h3>
+          <p>Developed the frontend login interface for the hackathon portal, improving user experience and accessibility.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section id="publications" class="publications">
+    <div class="container">
+      <h2>Research &amp; Publications</h2>
+      <div class="publication-card">
+        <p><strong>"Parent seeking Roblox Safety Help": Comparing Parental Roblox Concerns to Roblox Offerings</strong><br>
+        <span>A. Smithwick, et al.</span><br>
+        <span>2024 IEEE International Symposium on Technology and Society (ISTAS)</span></p>
+        <a href="https://ieeexplore.ieee.org/document/10732489" target="_blank" class="btn btn-accent">View Publication</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p class="contact-message">I'm always open to new opportunities, collaborations, or just a friendly chat. Reach out via email or connect with me on GitHub or LinkedIn!</p>
+      <div class="contact-links">
+        <a href="mailto:andy.smithwick@gmail.com" class="contact-icon contact-btn" title="Email">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+        </a>
+        <a href="https://github.com/WishingWell13" target="_blank" class="contact-icon contact-btn" title="GitHub">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/andy-smithwick/" target="_blank" class="contact-icon contact-btn" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Andy Smithwick. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for nav links
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+  <!-- Swiper.js JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      slidesPerView: 1,
+      spaceBetween: 16,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 24,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 32,
+        }
+      }
+    });
+  </script>
+  </script>
+</body>
+</html>
