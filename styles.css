@@ -166,6 +166,66 @@ button:focus {
   line-height: 1.7;
 }
 
+/* Experience, Education, and Leadership Sections */
+.experience h2,
+.education h2,
+.leadership h2,
+.skills h2 {
+  font-size: 2rem;
+  color: #007BFF;
+  margin-bottom: 1.5rem;
+}
+.experience-card,
+.education-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.experience-card h3,
+.education-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  color: #212529;
+}
+.timeline {
+  color: #007BFF;
+  font-weight: 500;
+  margin: 0 0 0.8rem;
+}
+.experience-card ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  line-height: 1.6;
+}
+.education-card p {
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+.leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.leadership-grid .experience-card {
+  margin-bottom: 0;
+}
+
+/* Skills Section */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+.skills-list span {
+  background: #e3f0ff;
+  color: #007BFF;
+  border-radius: 8px;
+  padding: 0.45rem 0.8rem;
+  font-weight: 500;
+}
+
 /* Projects Section */
 .projects h2 {
   font-size: 2rem;
